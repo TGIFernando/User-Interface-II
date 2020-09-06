@@ -305,6 +305,12 @@
             transition: .5s;
         }
         
+        @media(max-width:950px) {
+            .pro1 a {
+                padding: 16rem;
+            }
+        }
+        
         @media(max-width:800px) {
             header {
                 flex-direction: column;
@@ -329,10 +335,19 @@
             .aProjects {
                 flex-wrap: wrap;
             }
-            .pro1 {
-                padding: 10rem;
+            .pro1 a {
+                padding: 12rem;
                 flex-wrap: wrap;
             }
         }
         
-        @media(width:500px) {}
+        @media(max-width:500px) {
+            header h2 {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            .pro1 a {
+                padding: 8rem;
+            }
+        }
